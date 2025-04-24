@@ -1,5 +1,5 @@
 class Company:
-    next = 0  # Variable de clase(estatica) para almacenar el próximo ID disponible
+    next = 1  # Variable de clase(estatica) para almacenar el próximo ID disponible
     # meetodo constructor que s eejecuta cuando se instancia la clase
     def __init__(self, name="SuperMaxi", ruc="0943213456001"):
         # Incrementa el contador de ID para cada nueva instancia
